@@ -1,0 +1,41 @@
+.test2 {
+    margin-top: 300px;
+    margin-left: 443.11px;
+    float: inherit;
+}
+
+header {
+    width: 100%;    
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+body {
+    /*width: 100%;*/
+}
+
+input {
+    border: 2px solid #464646;
+    border-radius: 49px;
+    width: 586px;
+    height: 40px;
+}
+
+p {
+    margin-top: 1366px;
+}
+
+.test {
+    margin-top: 276px;
+    margin-left: 528px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    font-family: 'Inter';
+
+}

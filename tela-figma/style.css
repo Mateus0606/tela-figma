@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin-top: 8%;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+input {
+  margin-left: 2%;
+  border: 2px solid #464646;
+  border-radius: 50px;
+  width: 580px;
+  height: 35px;
+}
+
+nav {
+  position:fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-container {
+  max-width: 1200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: 3%;
+}
+
+#logo {
+  margin: 22px;
+  float: left;
+  width: 12%;
+}
+
+.nav-container ul {
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav-container li {
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  margin-left: 2%;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: black;
+  font-size: 130%;
+}
+
+.nav-container li a:hover {
+  color: #e91823;
+}
+
+.home{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+}
+
+.home-text{
+
+}
+
+.home-text .text-h1{
+
+}
+
+.home-text p{
+
+}
+
+.home-img img{
+  width: 20%;
+}
+
+footer {
+margin-top: 105px;
+}
+
+.company-footer {
+	width: 68%;
+}
+
+.company-footer img {
+  width: 110%;
+  margin-left: 367px;
+}
